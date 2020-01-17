@@ -1,0 +1,14 @@
+Base path: C:/Program Files/Unity/Editor/Data
+Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  api=4 insize=1527 outsize=933 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=9827 outsize=8201 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at GPUVoxelMosaic.compute(31): integer divides may be much slower, try using uints if possible.
+  error: 1 plat 4 at GPUVoxelMosaic.compute(32): integer modulus may be much slower, try using uints if possible.
+  error: 1 plat 4 at GPUVoxelMosaic.compute(89): use of potentially uninitialized variable (GetMosaicParticle)
+  api=4 insize=2592 outsize=2625 ok=1
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
